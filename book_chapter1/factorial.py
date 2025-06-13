@@ -1,17 +1,15 @@
-def factorial(number):
-
-    if number < 0:
-        print("can't be negative")
-
-    elif number == 0:
+def factorial(n):
+    if n < 0:
+        return None
+    if n == 0:
         return 1
+    return n * factorial(n - 1)
 
-    else:
-        return number * factorial(number - 1)
+number = int(input("Enter a non-negative number: "))
 
-number = int(input("Enter number: "))
-
-nums = [factorial(k) for k in range(number)]
-
-print(nums)
+if number < 0:
+    print("Factorial is not defined for negative numbers.")
+else:
+    nums = [factorial(k) for k in range(number)]
+    print(nums)
 

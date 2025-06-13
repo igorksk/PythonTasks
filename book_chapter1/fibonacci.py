@@ -1,17 +1,14 @@
-def fibonacci(number):
-    
-    if number == 0:
-        return number;
+def fibonacci(n):
+    if n < 0:
+        return None
+    if n == 0 or n == 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
-    elif number == 1:    
-        return number;
-    
-    else:
-        return fibonacci(number - 1) + fibonacci(number - 2);
+number = int(input("Enter a non-negative number: "))
 
-
-number = int(input("Enter number: "))
-
-nums = [fibonacci(k) for k in range(number)]
-
-print(nums)
+if number < 0:
+    print("Fibonacci is not defined for negative numbers.")
+else:
+    nums = [fibonacci(k) for k in range(number)]
+    print(nums)
