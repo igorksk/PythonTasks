@@ -1,3 +1,9 @@
+"""Task: Count digit frequencies in an integer.
+
+Reads an integer from input, counts how many times each digit
+appears and prints the counts in ascending digit order.
+"""
+
 number = int(input("Enter number: "))
 
 digits = [int(d) for d in str(number)]

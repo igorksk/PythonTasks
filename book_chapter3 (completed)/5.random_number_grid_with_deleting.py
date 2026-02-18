@@ -1,3 +1,9 @@
+"""Task: Create a random numeric grid and allow deleting a row/column.
+
+Generates a rows x cols grid of random digits (0-9), prints it, then
+prompts to delete a row and a column by index and prints the final grid.
+"""
+
 import random
 
 def create_random_number_grid(rows, cols):
@@ -15,7 +21,7 @@ cols = int(input("Enter columns length: "))
 
 grid = create_random_number_grid(rows, cols)
 
-#Initial grid
+# Initial grid
 for row in grid:
     print(row)
 
@@ -38,6 +44,6 @@ try:
 except ValueError:
     print("Enter correct number.")
 
-#Grid after deletion
+# Grid after deletion
 for row in grid:
     print(row)

@@ -1,3 +1,9 @@
+"""Task: List numbers divisible by 3 or 4 but not by 12.
+
+Builds and prints a list of integers in the range 0..49 that are
+divisible by 3 or 4, excluding those divisible by 12.
+"""
+
 nums = [k for k in range(50)]
 
 filtered_nums = []

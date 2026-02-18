@@ -1,3 +1,10 @@
+"""Task: Sum integers from 0 to limit excluding specified exceptions.
+
+Prompts for an upper `limit` and a space-separated list of exception
+integers; computes the sum of numbers in [0..limit] that are not in the
+exceptions list and prints the result.
+"""
+
 limit = int(input("Enter limit: "))
 
 exceptions_input = input("Enter numbers for the exceptions list (space-separated): ")

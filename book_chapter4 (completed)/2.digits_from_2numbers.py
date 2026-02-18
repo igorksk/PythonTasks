@@ -1,3 +1,9 @@
+"""Task: Collect unique digits from two integers.
+
+Reads two integers, extracts their digits and prints the set of
+unique digits present in either number.
+"""
+
 number1 = int(input("Enter number 1: "))
 
 number2 = int(input("Enter number 2: "))

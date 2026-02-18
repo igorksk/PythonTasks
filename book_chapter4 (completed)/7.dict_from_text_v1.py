@@ -1,3 +1,9 @@
+"""Task: Build a character frequency dictionary from input text (v1).
+
+Reads text, counts occurrences of each character and prints the
+resulting frequency dictionary.
+"""
+
 # Ask the user to enter some text
 text = input("Enter some text: ")
 

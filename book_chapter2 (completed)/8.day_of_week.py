@@ -1,3 +1,9 @@
+"""Task: Map a number (1-7) to the corresponding weekday name.
+
+Prompts for an integer between 1 and 7 and prints the corresponding
+day name; validates the input range.
+"""
+
 # Ask the user to enter a number
 number = int(input("Enter a number from 1 to 7: "))
 

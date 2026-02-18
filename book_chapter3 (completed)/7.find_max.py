@@ -1,3 +1,9 @@
+"""Task: Find the maximum value and its index in a list.
+
+Implements a simple scan to determine the maximum element and its
+position, demonstrated on a sample list.
+"""
+
 def max(arr):
     n = len(arr)
     max = arr[0]

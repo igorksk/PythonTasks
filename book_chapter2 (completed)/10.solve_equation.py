@@ -1,3 +1,8 @@
+"""Task: Solve a simple linear equation of the form A*x + A + 1 = B.
+
+Prompts for coefficients A and B, then solves for x when possible.
+Handles the special cases when A == 0 and invalid input.
+"""
 
 try:
     # Ask the user to enter A

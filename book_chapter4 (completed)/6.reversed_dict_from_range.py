@@ -1,3 +1,10 @@
+"""Task: Build a dictionary mapping numbers 1..n to their reversed counterparts.
+
+Prompts for a non-negative integer n, constructs `numbers = [1..n]` and
+`reversed_numbers = numbers[::-1]`, then prints the mapping from each
+original number to the corresponding reversed number.
+"""
+
 # Ask the user to enter a non-negative integer
 n = input("Enter a non-negative integer: ")
 

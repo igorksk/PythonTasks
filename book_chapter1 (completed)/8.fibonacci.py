@@ -1,3 +1,9 @@
+"""Task: Generate Fibonacci sequence values using recursion.
+
+Defines a recursive `fibonacci` function, prompts for a non-negative
+integer n and prints the list of fibonacci values for k in range(n).
+"""
+
 def fibonacci(n):
     if n < 0:
         return None

@@ -1,3 +1,11 @@
+"""Task: Generate a random list and partially sort it by index parity.
+
+Creates a random list and applies two custom passes:
+ - even-indexed elements are sorted ascending by comparing elements two apart
+ - odd-indexed elements are sorted descending by comparing elements two apart
+Prints the initial and resulting lists.
+"""
+
 import random
 
 lst = []

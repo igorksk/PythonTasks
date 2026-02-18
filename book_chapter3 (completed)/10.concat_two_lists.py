@@ -1,3 +1,9 @@
+"""Task: Interleave two randomly generated lists.
+
+Generates two random lists of equal length and produces a new list
+by alternating elements from each input list (a1, b1, a2, b2, ...).
+"""
+
 import random
 
 def create_random_list():

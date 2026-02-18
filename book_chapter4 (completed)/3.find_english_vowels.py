@@ -1,3 +1,9 @@
+"""Task: Find unique English vowels present in a text input.
+
+Reads text from the user, collects unique vowels (case-insensitive)
+and prints them in sorted order, or indicates none were found.
+"""
+
 # List of English vowels
 vowels = "aeiouyAEIOUY"
 

@@ -1,3 +1,9 @@
+"""Task: Concatenate digits of several numbers into one integer.
+
+Takes a list of integers, extracts their digits in order, concatenates
+them and prints the resulting integer.
+"""
+
 numbers = [12, 3, 456, 789]
 
 count = []

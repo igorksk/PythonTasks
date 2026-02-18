@@ -1,3 +1,9 @@
+"""Task: Create and print a random grid of lowercase letters.
+
+Generates a rows x cols grid filled with random lowercase letters
+and prints it to the console.
+"""
+
 import random
 import string
 
@@ -16,6 +22,6 @@ cols = int(input("Enter columns length: "))
 
 grid = create_random_letter_grid(rows, cols)
 
-# Печать результата
+# Print result
 for row in grid:
     print(' '.join(row))

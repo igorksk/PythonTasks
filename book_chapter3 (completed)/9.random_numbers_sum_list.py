@@ -1,3 +1,9 @@
+"""Task: Generate a random list and build a combined list with sums.
+
+Creates a random list and for each pair of elements at indices (i, i+1)
+appends the first, the second and their sum to a new list, then prints it.
+"""
+
 import random
 
 lst = []

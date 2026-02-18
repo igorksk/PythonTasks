@@ -1,3 +1,9 @@
+"""Task: Check whether three numbers form an arithmetic progression.
+
+Prompts for three integers and checks whether they satisfy the
+property of an arithmetic progression (equal differences).
+"""
+
 user_input = input("Enter exactly three numbers (arithmetic progression), separated by spaces: ")
 
 parts = user_input.split()

@@ -1,3 +1,9 @@
+"""Task: Small quiz to guess authors by book titles.
+
+Iterates through a predefined mapping of authors to titles and asks the
+user to input the author's last name for each title, tallying correct answers.
+"""
+
 # Dictionary: key — author's last name, value — book title
 books = {
     "Orwell": "1984",

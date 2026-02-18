@@ -1,3 +1,9 @@
+"""Task: Compare two real numbers and state their relation.
+
+Prompts for two real numbers and prints whether they are equal,
+or which one is greater. Handles invalid numeric input.
+"""
+
 try:
     # Ask the user to enter the first real number
     a = float(input("Enter the first number: "))

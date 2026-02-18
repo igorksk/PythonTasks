@@ -1,3 +1,8 @@
+"""Task: Check whether three lengths can form a triangle.
+
+Prompts the user for three integers (triangle sides) and verifies the
+triangle inequality (sum of any two sides greater than the third).
+"""
 
 user_input = input("Enter exactly three numbers (triangle sides), separated by spaces: ")
 

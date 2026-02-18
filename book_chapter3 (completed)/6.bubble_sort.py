@@ -1,3 +1,9 @@
+"""Task: Sort a list using the bubble sort algorithm.
+
+Defines `bubble_sort` which sorts the list in-place using bubble sort
+and demonstrates the function on a sample list.
+"""
+
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):

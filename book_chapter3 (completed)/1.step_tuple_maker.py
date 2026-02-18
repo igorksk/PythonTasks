@@ -1,3 +1,9 @@
+"""Task: Create a tuple from characters at regular steps in a string.
+
+Prompts for text and a positive step index, then constructs a tuple
+containing characters taken every `step` positions and prints it.
+"""
+
 # Ask the user to enter text
 text = input("Enter text: ")
 

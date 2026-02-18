@@ -1,3 +1,10 @@
+"""Task: Compute factorials (recursive implementation).
+
+Defines a recursive `factorial` function and prints the list of factorials
+for numbers from 0 up to (n-1) where n is the user-provided non-negative
+integer.
+"""
+
 def factorial(n):
     if n < 0:
         return None

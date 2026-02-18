@@ -1,3 +1,9 @@
+"""Task: Generate two sets of random numbers and print their union.
+
+Creates a set of 5 unique random numbers in range 1..10 and a set of 10
+unique random numbers in range 11..30, then prints their union.
+"""
+
 from random import seed, randint
 
 seed()

@@ -1,3 +1,10 @@
+"""Task: Fill and print a matrix in spiral order.
+
+Provides `fill_spiral(rows, cols)` which returns a rows x cols matrix
+filled with increasing integers in spiral order. Prompts for sizes
+and prints the resulting matrix.
+"""
+
 def fill_spiral(rows, cols):
     """
     Create a 2D matrix filled with numbers in a spiral order.

@@ -1,3 +1,9 @@
+"""Task: Return the second largest value from a list.
+
+Defines `second_max` which removes the maximum value and returns
+the next maximum. Demonstrates the function on a sample list.
+"""
+
 def second_max(nums):
 
     first_max = max(nums);
